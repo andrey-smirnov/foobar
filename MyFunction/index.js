@@ -8,6 +8,7 @@ function processEvent(context, event) {
         res: 200,
 	body: "hello world"
     };
+    context.done();
 }
 
 module.exports = function (context, req) {
